@@ -23,7 +23,7 @@ function EnterPass()
 
 
 var index =0;
-var slide1imgs = ['/img/slides1/slideimg1.jpg','/img/slides1/slideimg2.jpg','/img/slides1/slideimg3.jpg','/img/slides1/slideimg4.jpg'];
+var slide1imgs = ['./img/slides1/slideimg1.jpg','./img/slides1/slideimg2.jpg','./img/slides1/slideimg3.jpg','./img/slides1/slideimg4.jpg'];
 function nextslide(n)
 {
     slideshow(index += n);
