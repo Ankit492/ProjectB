@@ -41,7 +41,7 @@ function nextslide(n)
 function slideshow(n){
     if(n>slideln){n = 1}
     if(n<1){n = slideln}
-    document.getElementById("slide1").src = '/img/slides1/slideimg' + n + '.jpg' ;
+    document.getElementById("slide1").src = 'img/slides1/slideimg' + n + '.jpg' ;
     index=n;
 }
 setInterval(nextslide,3000,1);
@@ -57,7 +57,7 @@ function slideshow2(n){
     
     if(n>slide2ln){n = 1}
     if(n<1){n = slide2ln}
-    document.getElementById("slides2").src = '/img/16-11-2020/' + n + '.jpg';
+    document.getElementById("slides2").src = 'img/pics/' + n + '.jpg';
     index2=n;
 }
 function stp()
