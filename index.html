@@ -1,49 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Happy Birthday</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-  <link rel="stylesheet" href="css/style.css"/>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Password</title>
+  <link rel="stylesheet" href="./css/style.css"/>
 </head>
 <body>
-<marquee class="tophead"><p id="tophead"></p></marquee>
-<nav class="navbar navbar-inverse">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>                        
-        </button>
-        <a class="navbar-brand" href="#">BABY</a>
-      </div>
-      <div class="collapse navbar-collapse" id="myNavbar">
-        <ul class="nav navbar-nav">
-          <li class="active"><a href="#">Happy Birthday</a></li>
-          <li><a href="index2.html">My Babe</a></li>
-          <li class="dropdown">
-            <a class="dropdown-toggle" data-toggle="dropdown" href="">Memories<span class="caret"></span></a>
-            <ul class="dropdown-menu">
-              <li><a href="memories1.html">Memories1</a></li>
-              <li><a href="memories2.html">Memories2</a></li>
-              <li><a href="memories3.html">Memories3</a></li>
-            </ul>
-          </li>
-          <li><a href="#">Secrets</a></li>
-          <li><a href="letter.html">Letter</a></li>
-        </ul>
-      </div>
+  <div class="passdiv">
+    <input type="text" id="passin" placeholder= "Enter Password" class=".text" required/>
+    <br>
+    <div id="errmsg">
+      <p id="error">veve</p>
     </div>
-  </nav>
-<div class="Wish">
-    <img class="animated infinite wobble" src="img/HappyBirthday.svg" />
-    <!-- <p>Vaishu,Love,Chocolate,Babe,</p> -->
-</div>
-    <script src="/js/script.js"></script>
+    <button class="ok" onclick="confirmpass()">Confirm</button>
+  </div>
+<script src="./js/script.js"></script>
 </body>
 </html>
