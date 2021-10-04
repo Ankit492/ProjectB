@@ -66,3 +66,9 @@ function stp()
 }
 nextslide2(1);
 setInterval(nextslide2,1000,1,stopcnt);
+document.getElementById('bdy').innerHTML = 'Firstly many many many Happy returns of the day babe. This day is more special to me than it is to you. All i wanted and wished for is to be with you on this day and make your day more special with everything I can do. But the nature planned something else.. no worries and no more regretting thought from now.. this letter is completly based on how much I loved, love, will love you and how much your presence in my life makes me special.
+I feel special just to have you in my life not just Bragging but seriously your nature is something I personally loved the best among everyone i ever met.
+
+My Love towards you always increases day by day..Like you have some sort of magic within yourself that whenever i see you i cannot control myself and I am saying truely that everytime i see you I feel the same crazy and special feeling inside me that came the very first time.
+Mostly My face starts smiling and my stomach starts trumbling whenever a single thought of you comes to my mind.
+Today is your day babe I want you to spend your entire day with a small smile on your face. Koi bhi agar aaj meri babe ko sad karega na ...usko sidha ek paune kilo ka punch dena apna 😉. ';
