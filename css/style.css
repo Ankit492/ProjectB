@@ -138,7 +138,7 @@ body{
 .letterdiv{
    
     border: 2px solid black;
-    height: 600px;
+    height: 200vh;
     width: 100%;
     background-color: black;
     position: relative;
@@ -149,19 +149,19 @@ body{
     position: fixed;
     top: 0;
     left: 0;
-    /* opacity: 90%; */
+    opacity: 90%;
     width: 100%;
-    height: 100%;
+    height: 100vh;
 }
 .ltrbdy{
     position: absolute;
-    top :30px;
+    top :40px;
     right: 1%;
     /* padding-left:10px ; */
     /* border: 2px solid blue; */
     width: 98%;
     height: 300vh;
-    color:rgb(228, 228, 228);
+    color:rgb(255, 255, 255);
     z-index: 98;
 }
 *{
@@ -177,6 +177,6 @@ img{
 
 .mimg{
     width: 98%;
-    height: 100vh;
+    height: 90vh;
     margin: 1%;
 }
